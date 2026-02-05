@@ -18,7 +18,8 @@ public class CorsConfig {
                         .allowedOrigins(
                             "http://localhost:3000",
                             "http://localhost:5173",
-                            "http://127.0.0.1:5173"
+                            "http://127.0.0.1:5173",
+                            "https://zomato-earningapp-ui.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
